@@ -1,0 +1,12 @@
+# Compiled executables
+chapter1/exercises/ex1-*
+!chapter1/exercises/*.c
+
+# Object files
+*.o
+*.out
+
+# Editor backup files
+*~
+*.swp
+.DS_Store
