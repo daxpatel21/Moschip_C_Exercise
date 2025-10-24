@@ -13,10 +13,10 @@ all: $(EXECUTABLES)
 
 # Rule: each .c file creates its own executable with same name
 %: %.c
-    $(CC) $(CFLAGS) -o $@ $<
+	$(CC) $(CFLAGS) -o $@ $<
 
 # Clean all executables
 clean:
-rm -f $(EXECUTABLES)
+	rm -f $(EXECUTABLES)
 
 .PHONY: all clean
