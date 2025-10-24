@@ -1,14 +1,14 @@
 #include<stdio.h>
 
-int main(){
+int main()
+{
 	int c;
 
-    while(c = getchar() != EOF){
-        putchar(c);
-      // printf("%c",c);
+    while(( c = (getchar() != EOF)))
+    {
+       printf("The vaue of c :%d\n",c);
     }
-    putchar(c);
-	return 0;
+       printf("The value of expression :%d\n",c);
+    return 0;
 }
-
 
