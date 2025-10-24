@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    printf("------------------------------------");
-    printf("Fahrenhit To Celsius Converter Table");
-    printf("------------------------------------");
+    printf("------------------------------------\n");
+    printf("Fahrenhit To Celsius Converter Table\n");
+    printf("------------------------------------\n");
     int fahr,celsius;
     int lower,upper,step;
 
