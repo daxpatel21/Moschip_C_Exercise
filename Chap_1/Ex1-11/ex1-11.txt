@@ -1,0 +1,11 @@
+Exercise 1-11. How would you test the word count program? What kinds of input are most
+likely to uncover bugs if there are any?
+
+
+Ans:
+
+Here The program of word count is based on the newline , tab or blankspace , so basically all the alphabatical inputs are valid as well as the numerical input is also valid and program can esaily detect the word character or line. So to find the bugs we can try the non ASCI characters such as:
+
+'»§ÛÝ­½¬®¯'
+
+This can find the area where bug can occur.
